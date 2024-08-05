@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="64.917" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Look for mobile phones on amazon" name="To get a list of samsung phones on amazon based on the search criteria - #1.1" time="62.674">
+<system-out><![CDATA[
+Given User goes to the amazon all menu......................................passed
+And User chooses "Electronics & Computers" to shop by department............passed
+And User chooses "Phones & Accessories" from electronics....................passed
+And User goes to mobiles section to choose "SIM-Free" phones in the menu....passed
+When the user sets the search criteria with the brand "Samsung", the camResolution "20 MP & above", the modelYear "2023" and the priceRange "£50-£100".passed
+Then the user should see the results based on their search..................passed
+]]></system-out>
+</testcase>
+</testsuite>
